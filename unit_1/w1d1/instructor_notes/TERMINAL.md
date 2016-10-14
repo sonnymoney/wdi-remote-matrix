@@ -19,11 +19,8 @@ _After this lesson, students will be able to:_
 - Use the command line to navigate directories
 - Change directories using both relative and absolute pathing
 - Create directories and files
-- Move and copy files
-- Use keyboard shortcuts to speed up workflow
-- Use multiple commands
-- Open and view files
-- List and kill processes
+- Move and copy files and directories
+- Delete files and directories
 
 
 <hr>
@@ -408,6 +405,53 @@ Example:
 <br>
 <hr>
 
+## DANGER ZONE
+
+`rm` - remove a file
+
+Example:
+
+- `rm filename.txt`
+
+	> Removes 'filename.txt'
+	
+<br>
+
+
+`rm -r` - remove a directory and its contents
+
+Example:
+
+- `rm -r directory`
+
+	> Removes 'directory' and its contents. USE WISELY!
+	
+<br>
+
+`rm -rf`
+
+Example:
+
+- `rm -rf directory`
+
+	> Removes 'directory' and its contents by force (no confirmation). USE WISELY!
+	
+
+<br>
+
+&#x1F535; **Activity (4 min)**
+
+* Navigate to the Labyrinth directory.
+* Delete one of the files from the directory.
+* Delete the stairway directory
+
+<br>
+<hr>
+End of main lesson
+<hr>
+
+# OTHER TERMINAL COMMANDS
+
 ## KEYBOARD COMMANDS
 ### Efficient workflow
 
@@ -517,47 +561,7 @@ Instead of dragging windows around, switch windows with `command + TAB` and `com
 <br>
 <hr>
 
-## DANGER ZONE
 
-`rm` - remove a file
-
-Example:
-
-- `rm filename.txt`
-
-	> Removes 'filename.txt'
-	
-<br>
-
-
-`rm -r` - remove a directory and its contents
-
-Example:
-
-- `rm -r directory`
-
-	> Removes 'directory' and its contents. USE WISELY!
-	
-<br>
-
-`rm -rf`
-
-Example:
-
-- `rm -rf directory`
-
-	> Removes 'directory' and its contents by force (no confirmation). USE WISELY!
-	
-
-<br>
-
-&#x1F535; **Activity (4 min)**
-
-* Navigate to the Labyrinth directory.
-* Delete one of the files from the directory.
-* Delete the stairway directory
-
-<hr>
 
 
 ## OUTPUT REDIRECTION AND VIEWING FILES
