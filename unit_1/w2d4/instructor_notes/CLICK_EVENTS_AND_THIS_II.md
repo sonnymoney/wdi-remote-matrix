@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-R2D2
+# WDI-Matrix
 
 <hr>
 Title: Click Events and This II - Using Loops<br>
