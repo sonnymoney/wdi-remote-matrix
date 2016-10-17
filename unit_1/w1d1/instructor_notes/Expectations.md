@@ -16,30 +16,30 @@
 - growth mindset vs fixed mindset
 	- focus on the learning process, not on the results of your current task
 	- different types of fixed mindsets
-		-
 - Programming like writing an essay in a language you don't know
 - IAs are chosen by those who help a lot
 - First job finders are a mix of strong and struggling. They are often a way into a company for others so be friends with everyone
 - Plagiarism will get you a job that you'll get fired from
-- project time is community bonding time
+- Project time is community bonding time
 - Most mistakes are stupid. Even weak students can spot what your mind is filling in. Like glossing over spelling mistakes
-- Bringing up mistakes during class often illuminates good points
+- Bringing up mistakes during class often illuminates good points to talk about
 - Projects and grades mean nothing. The education matters
-- Code quality doesn't matter
-- Can't compare with other students. Not school, where everyone comes in with roughly equivalent experience
-- Don't let problems fester. Bring them up immediately
-- We open doors they walk through
-- Ga name means nothing. Education is priceless. Bootcamps have not been around long enough to gain clout. We help people of all levels, not just smarties which is a virtuous cycle
-- learning to debug and read docs/stack overflow takes experience, not brains or teaching.  Matt Short story
-- focus is crucial: could mention something that you could struggle over for hours
-- development is like building a recipe
+- Code quality doesn't matter.  Only problems solving
+- You can't compare students. Not school, where everyone comes in with roughly equivalent experience
+- Don't let problems of any kind fester. Bring them up immediately
+- We only "open the doors" you have to walk through the door
+- GA name means nothing
+	- The education is priceless
+	- Bootcamps have not been around long enough to gain clout
+	- We help people of all levels.  Some bootcamps only let people in who already have programming experience and will give them a good reputation.
+- learning how to debug and read documentation/articles/forums takes practice
+- development is like building a recipe, it's just a series of basic steps
 - learn what kind of mistakes you make
-- Type things out
+- type things out, don't copy and paste.  Copy and pasting takes your mind off of what you're doing.
 - there is a disconnect between knowing it at a conceptual level and being able to use it
-- just because you can take code apart, doesn't mean you can build it
+- just because you can look at code and understand it, doesn't mean you can build something
 - can usually receive partial refund and continue in another course if withdrawing for family/external issues.  Not for plagiarism.  Come to us before doing anything extreme
-- increasing levels of independance, lecture, lab, homework, project
+- increasing levels of independence: lecture -> lab -> homework -> project
 - additional materials are a fallback, try to do as much on your own as possible
-- No distractions
-- learn to test your code, come up with how to break software.  Testing edge cases is crucial to life/programming
+- learn to test your code, come up with ways to break software.  Testing edge cases is crucial to life/programming
 - Community is best aspect of GA. Help with work and finding work
