@@ -5,7 +5,7 @@
 <hr>
 Title: Intro to JS<br>
 Type: Lesson<br>
-Duration: 2.5 hrs<br>
+Duration: 2 hrs<br>
 Creator: Thom Page<br>
 Topics: Javascript Intro <br>
 <hr>
@@ -19,21 +19,21 @@ _After this lesson, students will be able to:_
 - Explain why we are learning Javascript
 - Run single-line Javascript code in the Chrome console
 - Write and evaluate expressions using four of the five primitives: strings, numbers, null, and undefined
-- Use methods on strings and numbers, and research more methods
-- Connect a script to an html document
-- Begin writing a console adventure game with a browser prompt
+- Use methods on strings and numbers
+- Practice the Math standard library
+- Write an expression with coercion
 
 <hr>
 
 
-### What is Javascript? (1 min)
+### What is Javascript? (3 min)
 
 Javascript is a programming language. It is written as a sequence of commands that can be read and executed by a program. For Javascript this typically means Node or Chrome will read the code and figure out what to do with it.
 
 Javascript was originally developed for Netscape Navigator 2.0 in 1995! The prototype for Javascript was written in 10 days by one guy. When it was being made it was called Mocha, then LiveScript, then renamed JavaScript for marketing purposes. It has little in common  with the programming language called Java.
 
 
-### Why Javascript? (2 min)
+### Why Javascript? (3 min)
 
 Javascript is the only programming language that runs natively in web browsers. We don't really have a choice. We really want to learn JavaScript. Maybe in the future some other language will replace it, but JavaScript is being updated all the time, so it looks like it will be around for a while, and ES6 already has good support.
 
@@ -42,7 +42,9 @@ When we move into servers, you'll see that because of Javascript's prevalance we
 <br>
 <hr>
 
-### CHROME CONSOLE - single-line code (5 min)
+10:06
+
+### CHROME CONSOLE - single-line code (2 min)
 
 url `about:blank`
 
@@ -50,107 +52,17 @@ Open Javascript console `option + command + J`
 
 
 
-### ANATOMY
+# PRIMITIVES - STRINGS AND NUMBERS
 
-* `var item = "chair";`
-
-- equals `=` (assignment)
-	- Here we are storing data to memory. 	
-- `var`
-	- We are declaring a variable
-	- Using `var` we limit the variable to the current scope 
-	- We will return to `scope` during the lesson on `functions`
-- variable name
-	- cannot begin with a number or include special character
-	- camelCase
-	- case sensitive 
-- data, primitives
-	1. Strings are text (within quotes)
-	2. Numbers are digits
-	3. Booleans are true and false
-	4. Null is a deliberate assignment of no value
-	5. Undefined is a value that has not been set 
-- semicolon
-	- The interpreter needs the semicolons 
-	- Automatic Semicolon Insertion
-	- You won't get a job if you don't write your semicolons
-	- 'Minification' changes your code so you'd need 'em there
-
-	
-<br>
-
-&#x1F535; **Activity (2 min)**
-
-**variable assignment**
-
-- Without running the following code, try to determine:
-
-```
-var a = 'gom jabbar';
-var b = 'feel the sting';
-var c = 'Baron';
-
-a = b;
-b = c;
-c = a;
-```
-
-We can assign any value, including other variables
-
-```
-var tool = 'magnifying glass'
-var spyglass = tool
-
-spyglass 
-=> "magnifying glass"
-```
-
-- What are the values of a, b, and c after the assignments are done?
-
-- Run the code to verify.
-
-<br>
-<hr>
-
-
-## PRIMITIVES (1 mins)
-
-Primitives are the fundamental pieces of data we use in Javascript. There are **5** of them:
-
-1. String
-2. Number
-3. Undefined
-4. Null
-5. Boolean
-
-At the end of today during lab, you will make your own pick-a-path adventure to play in the Chrome console. Let's gather up the fundamental components (the primitives) we will need for our program.
-
-
-## Strings (1 mins)
-
-Strings are text. Surround them in quotes (single quotes are standard, but you can use double quotes). 
-
+**Strings** are text. Surround them in quotes (single quotes are standard, but you can use double quotes). 
 
 * `'This is a string';`
 
+**Numbers** are digits. There are no quotes around a number primitive. Numbers can be evaluated in arithmetic expressions.
 
-> We will want to have a character in our adventure who has a name, so we will want text: a string. We will also want to send messages to the user who is playing the game. We will also need strings to send ourselves messages to help debug the code.
+* `2 + 2`;
 
-
-**Concatenation (2 mins)**
-
-JavaScript allows us to add strings together with `+`:
-	
-```
-'hello' + ' world'
-=> 'hello world'
-```
-
-<br>
-
-### Assignment (5 min)
-
-We can assign a string to a variable
+**Variables (5 mins):** We can assign strings and numbers to variables. Using the assignment operator `=`, we can store data to memory:
 
 ```
 var item = 'chair';
@@ -168,12 +80,66 @@ item
 => table
 ```
 
-- variable names
+Or, set a number:
+
+```
+var num = 2000 * 2;
+
+num
+=> 4000
+```
+
+10:11
+
+**Variable names**
+
 	- cannot begin with a number or include special character
 	- camelCase
-	- case sensitive 
+	- case sensitive
+
+**Semicolons**
+
+	- The interpreter needs the semicolons 
+	- Automatic Semicolon Insertion
+	- You won't get a job if you don't write your semicolons
+	- 'Minification' changes your code so you'd need 'em there
+
+10:16
 
 <br>
+
+&#x1F535; **Activity (2 min)**
+
+You can assign variables to other variables!
+
+**Variable assignment**
+
+Without running the following code, try to determine:
+
+```
+var a = 'gom jabbar';
+var b = 'feel the sting';
+var c = 'Baron';
+
+a = b;
+b = c;
+c = a;
+```
+
+Test out your answer by checking in the Chrome Console
+
+10:18
+
+## STRINGS
+
+**Concatenation (2 mins)**
+
+JavaScript allows us to add strings together with `+`:
+	
+```
+'hello' + ' world'
+=> 'hello world'
+```
 
 **Interpolation (5 mins)**
 
@@ -226,17 +192,13 @@ var lastname = "Atreides"
 lastname.toLowerCase();
 => ATREIDES
 ```
-
-
 <br>
-
-
 
 &#x1F535; **Activity (5 min)**
 
 * In Chrome console, set a variable `firstName` to a string. Then set another variable `lastName` to a string.
 
-* Write an expression that sends a greeting with the `firstName` and `lastName` UPPERCASED. Use interpolation to put the message together. (eg: ``Hello there #{variable1.toUpperCase()} #{variable2. toUpperCase()}!`)
+* Write an expression that sends a greeting with the `firstName` and `lastName` UPPERCASED. Use interpolation to put the message together. (eg: ``Hello there #{variable1.toUpperCase()} #{variable2.toUpperCase()}!`)
 
 ```
 => "Hello BARON HARKONNEN!"
@@ -252,7 +214,7 @@ FIGURE IT OUT
 
 * What happens if you set `var fullName = firstName + lastName`? Try it out.
 
-* Reassign `fullName` it so that there is a space " " between `firstName` and `lastName`, using interpolation. Bonus: Make it uppercase.
+* Reassign `fullName` so that there is a space " " between `firstName` and `lastName`, using interpolation. Bonus: Make it uppercase.
 
 ```
 fullName
@@ -261,109 +223,9 @@ fullName
 <br>
 <hr>
 
-![](http://cdn.gamesocool.com/c/gs/cover/4f/adventure-time-finn-up/adventure-time-finn-up.jpg?v=1415081881)
-
-## ADVENTURE
-
-#### Let's begin our adventure! (1 min)
-
-* Move from Chrome console to text editor
-
-<br>
-
-&#x1F535; **Setup (5 min)**
-
-Inside the `student_labs` directory, make an `adventure` directory and go into it. Make the project files.
-
-* `mkdir adventure`
-
-* `cd adventure` 
-
-* `touch index.html app.js`
-
-<br>
-
-&#x1F535; **Setup (5 min)**
-
-* Link the markup and the script together:
-
-```
-<html>
-<head>
-	<title></title>
-	<script type="text/javascript" src="app.js"></script>
-</head>
-<body>
-
-</body>
-</html>
-```
-
-* Load the file in Chrome. In atom, right click (ctrl + click) the html file name and select 'Copy Full Path`. Paste the link into Chrome.
-
-<br>
-
-&#x1F535; **Setup (10 min)**
-
-* `console.log();`
-	- Send messages to the console. Let's use it for debugging purposes. 
-
-```
-console.log('app.js');
-```
-
-We should see "app.js" appear in our Chrome console.
-We can also use other console actions: `console.clear()`, `console.warn()`, `console.error()`
-
-<br>
-
-
-* `prompt();`
-	
-	- Ask Chrome to prompt the user with a text box.
-	- We can capture the value of the text
-	
-```
-var input = prompt();
-
-console.log(input);
-```
-
-(Time: 10:00am)
-
-<br>
-&#x1F535; **Activity (10 min)**
-
-**ADD STRINGS TO THE ADVENTURE**
-
-* Send your user a header message about the adventure on which the user is about to embark.
-* Send a prompt asking for your user's name
-* Send a message welcoming the user with the input from the prompt
-
-Example
-
-```
-console.log('app.js');
-
-console.log('===========================');
-console.log('LET'S GO ON AN ADVENTURE!!!');
-console.log('===========================');
-
-// get the name, a string, from a prompt
-var name = prompt('What is your name?');
-
-console.log(`Welcome ${name}!\n\n`);
-
-```
-(Break: back at 10:20)
-<hr>
-
-<br>
+10:39
 
 ## Numbers (5 mins)
-Numbers are digits. There are no quotes around a number primitive. Numbers can be evaluated in arithmetic expressions.
-
-> We will want to give our character some hitpoints and/or damage points, so we will need Numbers. We might also want some random numbers in our game for dice rolls.
 
 **Integers**
 
@@ -422,6 +284,7 @@ Checks for a remainder after division
 ```
 
 <br>
+10:50
 
 &#x1F535; **Activity (1 min)**
 
@@ -442,6 +305,8 @@ Also, try
 
 <br>
 
+10:52
+
 **Compound assignment operators (5 min)**
  
 ```
@@ -459,19 +324,25 @@ is the same as:
 num *= num
 ```
 
+**Postfix and prefix (1 min)**
+
 - Postfix increment `num++` and decrement `num--`
 - Prefix increment `++num` and decrement `--num`
 
 <br>
 
+10:58
+
 &#x1F535; **Activity (3 min)**
 
-* set the number 5 to a variable
-* multiply the number by itself using compound assignment
-* increment the number by 1 using postfix or prefix
+* set the number 5 to a variable `num`
+* multiply the variable by itself using compound assignment
+* increment the variable by 1 using postfix or prefix
 
 <br>
 <hr>
+11:01
+
 
 #### Math.random() (10 mins)
 
@@ -509,54 +380,25 @@ Math.floor( Math.random() * 10 ) + 1;
 
 <br>
 
+11:11
+
 &#x1F535; **Activity (5 min)**
 
 * generate a random decimal number between 0 and 1 (excluding both 0 and 1)
 * generate a whole number between 1 and 100 (including 1 and 100) hint: use `Math.floor()`
 
+
+&#x1F535; **Activity (4 min)**
+
+RESEARCH
+
+* Use `Math.sqrt()` to find the square root of `Math.PI`
+* Use `Math.pow()` to raise 5 to the power of 4   
+
 <br>
 <hr>
 
-
-## ADVENTURE
-**ADD NUMBERS TO THE ADVENTURE**
-
-&#x1F535; **Activity (15 min)**
-
-* After your welcome message, declare a `hitpoints` variable and give your user a random number of hitpoints between 2 and 12 (as if rolling two 6-sided die). The answer is below.
-
-* Then, declare a `damage` variable and give your user a damage value equal to 1/3 of the hitpoints (less fortitude means wobblier elbows). The answer is below.
-
-* Send your user a console.log with the current hitpoints and damage values
-
-Example
-
-```
-console.log('app.js');
-
-console.log('===========================');
-console.log('LET'S GO ON AN ADVENTURE!!!');
-console.log('===========================');
-
-// get the name, a string, from a prompt
-var name = prompt('What is your name?');
-
-console.log(`Welcome ${name}!`);
-
-// declare hitpoints: a random integer between 2 and 12
-var hitpoints = Math.floor(Math.random() * 11) + 2;
-
-// declare damage, a float taken from another value (hitpoints)
-var damage = hitpoints / 3;
-
-console.log(`You have ${hitpoints} hitpoints!`);
-
-console.log(`You can do: ${damage} damage!`);
-```
-<br>
-<hr>
-
-(Time: 11:10am)
+11:16 Break until 11:26
 
 <br>
 
@@ -574,13 +416,12 @@ nothing
 ```
 
 - `null` is a deliberate non-value. Can be used as a placeholder.
-- `null` is nevertheless a value and can have meaningful operations performed on it:
-
-- Weirdness: remember coercion with Numbers? Null and undefined can be coerced into strings too:
 
 ```
-'' + null => "null"
-'' + undefined => "undefined"
+var nothing = null;
+
+nothing
+=> null
 ```
 
 <br>
@@ -590,6 +431,9 @@ nothing
 - What is the difference between null and undefined?
 
 <br>
+
+11:32
+
 
 ## DATA TYPES (5 min)
 
@@ -626,6 +470,7 @@ nothing
 	> "888"
 
 <br>
+
 
 &#x1F535; **Activity (3 mins)**
 
@@ -674,6 +519,12 @@ typeof 1000;
 
 => result is a number
 ```
+
+11:45
+
+Coercion exercise
+
+
 <br>
 <hr>
 License

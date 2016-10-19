@@ -5,7 +5,7 @@
 <hr>
 Title: Arrays<br>
 Type: Lesson<br>
-Duration: 1 hr<br>
+Duration: 1.5 hrs<br>
 Creator: Thom Page<br>
 Topics: Javascript intro: arrays <br>
 <hr>
@@ -22,10 +22,58 @@ _After this lesson, students will be able to:_
 - Include arrays inside other arrays (multi-dimensional arrays)
 - Access and change multi-dimensional array elements
 - Add and remove multi-dimensional array elements
-- Use an array in a program
 
 <hr>
 
+&#x1F535; **Setup (4 min)**
+
+Inside the `student_examples` directory. Make the lesson files:
+
+* `mkdir arrays`
+
+* `cd arrays` 
+
+* `touch index.html app.js`
+
+<br>
+
+&#x1F535; **Setup (5 min)**
+
+* Link the markup and the script together:
+
+```
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+* Load the file in Chrome. In Atom, right click (ctrl + click) the html file name and select 'Copy Full Path`. Paste the link into Chrome.
+
+<br>
+
+&#x1F535; **Setup (3 min)**
+
+* `console.log();`
+	- Send messages to the console. Let's use it for debugging purposes. 
+
+```
+console.log('app.js');
+```
+
+We should see "app.js" appear in our Chrome console.
+
+We can also use other console actions: `console.clear()`, `console.warn()`, `console.error()`
+
+<hr>
+<br>
+
+12:12
 
 ## WHAT IS AN ARRAY? (5 mins)
 
@@ -40,20 +88,15 @@ var squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
 - Arrays contain `elements` separated by commas `,`
 
 - `Elements` can be any primitive datatype
-	- Usually all elements in an array are of same datatype
+	- Usually all elements in an array are of the same datatype
 
 - Declare an empty array
 
 	- `var arr = [];`
 
 <br>
-	
-&#x1F535; **Setup (5 min)**
 
-* In your repo, in the `student_labs` directory for `unit_01/w01d04/student_labs`:
-* create a file `arrays.js` and `console.log('hi!');`
-* run the file with `node arrays.js`. See the output in your Terminal. Make sure you are in the `student_labs` directory to run the file.
-* Write your answers into this file.
+12:17
 
 &#x1F535; **Activity (5 min)**
 
@@ -64,7 +107,9 @@ var squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
 <br>
 <hr>
 
-### ACCESSING ELEMENTS (3 mins)
+12:22
+
+### ACCESSING ELEMENTS (6 mins)
 
 Each element in the array has a numbered `index`. The first element has an index of 0.
 
@@ -100,6 +145,7 @@ console.log(items.length);
 
 <br>
 
+12:28
 
 &#x1F535; **Ask (1 min)**
 
@@ -109,7 +155,7 @@ Length gives us the number 4, but is there an element in the `items` array with 
 
 &#x1F535; **Activity (5 mins)**
 
-* Work in your `arrays.js` file, and run the code with `node arrays.js`. See the output in your Terminal.
+* Work in your `arrays.js` file. See the output in Chrome Console.
 * With the following array:
 
 ```
@@ -122,6 +168,7 @@ var ghostbusters1984 = ["Venkman", "Spengler", "Stantz",
 
 <br>
 
+12:33
 
 ### CHANGING ELEMENTS (5 mins)
 
@@ -143,7 +190,9 @@ console.log(veggies);
 
 <br>
 
-&#x1F535; **Activity (9 min)**
+12:38
+
+&#x1F535; **Activity (1 min)**
 
 * With the following array:
 
@@ -151,9 +200,11 @@ console.log(veggies);
 var numbers = [21, 18, 5, 3, 2, 1, 1];
 ```
 
-* Change the first element of the array to `null`, and console.log the array to confirm
+* Change the third element of the array to `null`, and console.log the array to confirm. (The third element is the number 5)
 
 FIGURE IT OUT
+
+&#x1F535; **Activity (4 min)**
 
 * Change the first element of the array to equal **itself** times ten (you could use a compound operator `*=` ). Remember, the number could theoretically be anything, not just 21. 
 
@@ -162,6 +213,8 @@ FIGURE IT OUT
 
 <br>
 <hr>
+
+12:43
 
 ### ARRAY METHODS: ADDING AND REMOVING ELEMENTS
 
@@ -202,7 +255,9 @@ Beatles;
 ```	
 <br>
 
-&#x1F535; **Activity (10 mins)**
+12:50
+
+&#x1F535; **Activity in pairs (10 mins)**
 
  - Make an array of two of favorite tv shows or movies
  - `.push()` another TV show or movie into the array
@@ -217,6 +272,8 @@ Beatles;
 
 <br>
 <hr>
+
+1:00
 
 **Using expressions to access elements (12 mins)**
 
@@ -266,7 +323,9 @@ console.log(arr[num]);
 
 <br>
 
-&#x1F535; **Activity (9 mins)**
+1:12
+
+&#x1F535; **Activity (4 mins)**
 
 With the following array:
 
@@ -276,6 +335,7 @@ var runDMC = ["Run", "DMC, "Jam Master Jay"];
  
 * Console.log the last element in the array using the length of the array inside the square brackets
 
+&#x1F535; **Activity (5 mins)**
 
 FIGURE IT OUT
 
@@ -284,47 +344,22 @@ FIGURE IT OUT
 <br>
 <hr>
 
-# ADVENTURE
+1:16
 
-&#x1F535; **Activity (8 min)**
-
-**ADD AN ARRAY TO THE ADVENTURE**
-
-* Make a variable `belongings` and set it to an array. The array should contain your user's adventuring items! Give your user a potion, a sword, and some Tums.
-
-* Send a console log telling your user what belongings they have
-
-Example
-
-```
-// declare belongings: an array of strings
-var belongings = [ "potion", "sword", "Tums" ];
-
-console.log(`You have: ${belongings}`);
-```
-
-<br>
-&#x1F535; **Activity (6 min)**
-
-Make an array of treasures that the user could potentially find! Randomly select one and inform the user that they could postentially find that particular piece of treasure.
-
-<br>
-<hr>
-
-### MULTI-DIMENSIONAL ARRAYS (3 mins)
+### MULTI-DIMENSIONAL ARRAYS (5 mins)
 
 Array elements can be non-primitives. Elements can be other arrays.
 
 ```
-var pairs = [["Thom", "Matt"], ["Marc, "Christine"]];
+var pairs = [["Snoopy", "Linus"], ["Peppermint Patty", "Woodstock"]];
 ```
 
 The `pairs` array has `2` elements. Use `pairs.length` to verify.
 
-- The element at 0 is `["Thom", "Matt"]`
-- The element at 1 is `["Marc", "Christine"]`
+- The element at 0 is `["Snoopy", "Linus"]`
+- The element at 1 is `["Peppermint Patty", "Woodstock"]`
 
-We can go deeper to retrieve the elements of these inner arrays. To do this, we keep adding square access brackets. To get `Marc` from the pairs array:
+We can go deeper to retrieve the elements of these inner arrays. To do this, we keep adding square access brackets. To get `Peppermint Patty` from the pairs array:
 
 ```
 pairs[1][0]
@@ -354,7 +389,7 @@ confectionary;
 
 <br>
 
-&#x1F535; **Activity (5 mins)**
+&#x1F535; **Activity (9 mins)**
 
 * With the following multi-dimensional array
 
