@@ -3,9 +3,9 @@
 # WDI-Matrix
 
 <hr>
-Title: jQuery vs Vanilla<br>
+Title: jQuery<br>
 Type: Lesson<br>
-Duration: Morning<br>
+Duration: 1.5 hrs<br>
 Creator: Thom Page<br>
 Topics: Intro to jQuery <br>
 <hr>
@@ -25,7 +25,7 @@ _After this lesson, students will be able to:_
 
 &#x1F535; **Setup (9 min)**
 
-* In your `student_labs` directory for today: `unit_01/w03d02/student_labs`
+* In your `student_examples` directory for today: `unit_1/w3d2/student_examples`
 * Create a _directory_ `jquery`
 * Inside the directory, make an `index.html` and an `app.js`
 * Link them together and verify that a console.log will appear in your Chrome console
@@ -44,7 +44,7 @@ jQuery:
 <hr>
 <br>
 
-11:14
+12:14
 
 ### ADD JQUERY TO A PROJECT (6 min)
 
@@ -67,7 +67,7 @@ Type `$` in the Chrome console.
 
 ![](https://i.imgur.com/L6uuz1A.png)
 
-11:20
+12:20
 
 ### USE JQUERY AS A SHORTHAND FOR NATIVE JS COMMANDS
 
@@ -81,9 +81,9 @@ Compare Vanilla js to jQuery commands
 * Add text to an element
 * Append it to the page
 
-11:30
+12:30
 
-&#x1F535; **Activity (10 min)**
+&#x1F535; **Activity (7 min)**
 
 REFER TO THE JQUERY COMMANDS SECTION IN THE MARKDOWN FOR SYNTAX
 
@@ -91,10 +91,12 @@ REFER TO THE JQUERY COMMANDS SECTION IN THE MARKDOWN FOR SYNTAX
 * Test that it is installed
 * Write in the jQuery window.onload
 * Write a button into your index.html and use jQuery to grab it (log the button to the console)
+
+&#x1F535; **Activity (3 min)**
 * Create a div with jQuery, and give the div some text
 * Append the div to the body of the page
 
-11:40
+12:40
 
 <br>
 <hr>
@@ -126,54 +128,71 @@ var $div = $('<div>');
 <br>
 <hr>
 
-11:48
+12:48
 
-### EVENT LISTENERS, `$(this)` (6 min)
+&#x1F535; **Activity in pairs (30 min)**
 
-**`elem.on('click', ... );`**
+RESEARCH AND IMPLEMENT jQUERY COMMANDS
 
-* get value from an input box
+Official jQuery docs: `http://api.jquery.com/`
+Also, refer to the jQuery commands section at the bottom of the markdown
 
-**`$(this)`**
+* Make and link a CSS file to your `index.html`
 
-jQuery has its own version of `this`. You can not use jQuery commands on the native js `this`: instead, you have to use `$(this)`
+In `index.html`
 
-* change the text on a button
+* Comment out the button and div from earlier
+* Write in two divs, an outer and an inner div. Only the inner div will have an id:
 
-<br>
-11:54
+```
+<div>
+	<div id="inner-div"></div>
+</div>
+```
 
-&#x1F535; **Activity (10 min)**
+In `app.js`
 
-REFER TO THE JQUERY COMMANDS SECTION IN THE MARKDOWN FOR SYNTAX
+* Write jQuery to grab the inner div (by id) from the page
+* Use jQuery to grab the _parent_ of the inner div from the page
 
-* In `index.html` write in an input box and give it an id
-* In `index.html` write in a button and give it an id 
-* Use jQuery to grab the input box
-* Use jQuery to grab the button
-* Use jQuery to add an event listener to the button
-* When the button is clicked:
-	* Console.log the `input.val()`
-	* Change the text of the button
+In your CSS file:
+
+* Write a CSS class `big-box` that will make its elements 200px by 200px and the color blue
+* Write CSS class `small-box` that will make make its elements 100px x 100px and the color red
+
+In `app.js`
+
+* Use jQuery to give the outer div the `big-box` class
+* Use jQuery to give the inner div the `small-box` class
+
+* Use jQuery to remove the inner div from the page 
+
+* Use jQuery to create another div and append it to the `body` of the page 
+* Use jQuery to give this new div the class `small-box`
+* Use jQuery to add CSS properties to this new div: give it a border-radius of 50%
+
+* Use jQuery to append the new div to the outer div
+* Use jQuery to _clone_ the new div and append it to the outer div. Do this three times (you should see four red circles extending from the blue box)
+
+* Use jQuery to grab all the _children_ of the outer div
+* Use jQuery to set the css properties of these children to `display: inline-block`
+
+The four red circles should be sitting (uncomfortably) within the blue box
+
+* Using jQuery `.eq()`, grab the first child of the children of the outer div
+* Using jQuery, give the first child an id of `first`
+
 
 <br>
 <hr>
 
-<break 12:04 - 12:14>
+1:18
 
-&#x1F535; **Activity (1 hr)**
+&#x1F535; **Review jQuery Activity**
 
-**To Do List lab**
 
 <br>
 <hr>
-
-&#x1F535; **Review lab (15 mins)**
-
-<br>
-<hr>
-
-
 
 ## JQUERY COMMANDS
 
@@ -201,15 +220,21 @@ $(function() {
 
 - set id on element: `jQueryElement.attr('id', 'idName')`
 
-- set class on element `jQueryElement.addClass('className')`
+- set class on element: `jQueryElement.addClass('className')`
 
-- click listener: `jQueryElement.click( function )`
+- get the parent of an element: `jQueryElement.parent()`
+
+- get child elements: `jQueryElement.children()`
+
+- set an event listener: `jQueryElement.on('click', function() {} )`
+
+- click listener: `jQueryElement.click( function() {} )`
 
 - get value from input box after click: `$('#idName').val()`
 
-- append elements: `jQueryElement.append( //stuff )`
+- append elements: `jQueryElement.append( jQueryElement )`
 
-- prepend elements: `jQueryElement.prepend( // stuff )`
+- prepend elements: `jQueryElement.prepend( jQueryElement )`
 
 - remove elements: `jQueryElement.remove()`
 
@@ -217,11 +242,22 @@ $(function() {
 
 - set html inside element: `jQueryElement.html("<some html>")`
 
-- check if element has a class: `jQueryElement.hasClass('.someClass')`
+- check if element has a class: `jQueryElement.hasClass('someClass')`
+
+- remove a class from an element: `jQueryElement.removeClass('someClass');`
 
 - set a css property on an element: `jQueryElement.css('property', 'value')`
 
+- clone an element: `jQueryElement.clone()`
+
+- append an element with the order reversed: `jQueryElement.appendTo( jQueryElement )`
+
+- get a specific jQuery element from a list: `jQueryCollection.eq( indexNum )`
 
 
 
+<br>
+<hr>
+License
+<hr>
 
