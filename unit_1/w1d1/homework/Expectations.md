@@ -38,11 +38,11 @@ Read through the following.  Write down five things that you learned from readin
 	- Your employers will quickly discover that you don't know what you say you know
 	- If you feel you can't complete the work, come to your instructors and we can figure out a way for you to turn in something meaningful.  There is always a solution
 	- You can usually receive a partial refund or continue in another course if withdrawing for family/external issues.  Not for plagiarism.  Come to us before doing anything extreme
-	- Even if you succeed in making us believe you are responsible for plagiarized work, ultimately, when you graduate, you will have only a certificate and none of the knowledge to back it up
-		- GA name means nothing.  Do not think that just because you graduate, people will give you a job
-			- GA is not Stanford or MIT.  Nobody will be impressed with the GA name on your resume
-			- Bootcamps have not been around long enough to gain any clout
-			- The education is priceless, though.  In reality, most devs who interview you will go into the interview believing you're unqualified.  Your ability to problem solve on the spot and talk thoughtfully about your code is going to be what changes their minds
+	- The General Assembly name means nothing.  Even if you succeed in making us believe you are responsible for plagiarized work, ultimately, when you graduate, you will have only a meaningless certificate and none of the knowledge to back it up
+		- Do not think that just because you graduate, people will give you a job
+		- GA is not Stanford or MIT.  Nobody will be impressed with the GA name on your resume
+		- Bootcamps have not been around long enough to gain any clout
+		- The education you gain here is priceless, though.  In reality, most devs who interview you will go into the interview believing you're unqualified.  Your ability to problem solve on the spot and talk thoughtfully about your code is going to be what changes their minds
 - Project weeks
 	- community bonding time.  Help each other out
 	- a chance to simulate the real world and see where you need improvement
