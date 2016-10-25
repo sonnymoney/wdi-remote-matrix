@@ -1,0 +1,63 @@
+# Setting you up for success
+
+Read through the following.  Write down five things that you learned from reading this.  Write down five things that you plan to change about yourself when taking this class.
+
+- Ways to avoid distraction
+	- Change your voicemail to let people know you will be able to respond immediately
+	- Set auto reply to email to let people know you will be able to respond immediately
+	- Say goodbye to friends and family.  Tell them you'll see them in three months. Like you're moving to another country.
+	- Quit your job/s.  It is almost impossible to succeed at WDI while working even a part time job
+	- Send children to daycare/family members.  It's impossible to watch a child and take this course
+	- Deactivate social media
+	- Turn off your phone during class time and while doing homework
+- If you are late/absent, email all instructors
+	- A previous student got into a car accident, went to the hospital, checked herself out of the hospital, and was only late by 15mins
+- Check your homework by figuring out ways to test your answers to see they are correct.  Don't wait for feedback.
+	- You should be able to answer the question "did I do it right?" on your own.
+	- In the real world, you'll need to figure out how to test your code to see if it works.  You won't have someone to read your code and tell you if you did it right.
+	- There is no "best" solution.  Ultimately, the only thing that matters is, "does it work?"
+	- Code "quality" (how your write code) doesn't matter as a jr developer.  Only your ability to solve problems matters
+- Try to create a relationship with all other students. You don't know when you'll need a second set of eyes. Sometimes bugs are really stupid, and can be spotted by anyone.  It's like writing a paper where your eyes know what you're trying to say and don't see mistakes
+- Finding a job has a lot to do with timing, what the employer needs vs what the student wants to do, and personality matches. Because of this, it's never that the best students get jobs first.  Rather, the group who get jobs first will contain a diverse set of students.  This group of students who get jobs first are often a way into a company for others, so be friends with everyone.  Someone you think would be unlikely to get a job could be one of the first ones to get one and could help you out.
+- growth mindset vs fixed mindset
+	- growth mindset
+		- people who believe that ability can be learned are highly successful
+	- fixed mindset
+		- people believe that ability is something you're born with are not successful
+	- focus on the learning process, not on the results of your current task
+		- you'll succeed more and have more fun
+	- different types of fixed mindsets.  Monitor your reactions for these feelings:
+		- You’re Wrong I Rule: person is unable to accept that they did something wrong
+		- You’re Right I Suck: any criticism immediately sends person into feeling like they're worthless
+		- Blame it On The Rain: any mistake a person makes is explained away by circumstance.  The person believes this won't happen again, so there's no need to correct
+		- Optimist Without a Cause: criticism is not important, given everything else that went well
+- Programming is like writing an essay in a language you don't know.  Know what you want to say and then research how to say it
+	- come up with the solution to a problem on your own and then research any syntax you might need in order to implement it.  Do not research the answer to the problem itself
+- Help out everyone.  IAs are often chosen by those who help other students a lot during class
+- Plagiarism (passing someone else's solution off as your own) will only result in you getting job that you're unqualified for and will get fired from
+	- You can usually receive partial refund or continue in another course if withdrawing for family/external issues.  Not for plagiarism.  Come to us before doing anything extreme
+- Project weeks
+	- community bonding time.  Help each other out
+	- a chance to simulate the real world and see where you need improvement
+- Bringing up your mistakes during class often illuminates good points to talk about
+	- it's very difficult as an instructor to come up with scenarios where a student will make a mistake, since everyone makes different kinds of mistakes
+- Projects and grades mean nothing
+	- No interviewer really will be impressed by your projects or your grades.  That's because you're still just starting out as a developer
+	- They will, however, be impressed if you can answer interview questions and talk thoughtfully about your code
+	- The education and knowledge you gain from projects, homework, labs, etc matter.  Not the actual work itself
+- Don't compare yourself with other students. This is not school, where everyone comes in with roughly equivalent experience
+- Don't let problems/questions of any kind (programming or personal) fester. Bring them up immediately to an IA or an IL
+- We only "open the doors" you have to walk through the door.  We guide you, but you'll have to do most of the work.
+- GA name means nothing
+	- GA is not Stanford or MIT.  Nobody will be impressed with the GA name on your resume
+	- Bootcamps have not been around long enough to gain any clout
+	- The education is priceless.  In reality, most devs who interview you will go into the interview believing you're unqualified.  Your ability to problem solve on the spot and talk thoughtfully about your code is going to be what changes their minds
+- Learning how to debug your own code and read documentation/articles/forums takes practice.  This is not really something that can be taught.  Make sure you struggle and read a lot on the internet on your own time.  Don't immediately ask for help
+- Development is like creating a recipe, it's just a series of basic steps
+- Learn what kind of mistakes you make
+- Type things out, don't copy and paste.  Copy and pasting takes your mind off of what you're doing.
+- There is a disconnect between knowing something at a conceptual level and being able to use it.  Make sure you can do both
+	- Just because you can look at code and understand it, doesn't mean you can build something like it
+- We create increasing levels of independence: lecture (very hands on) -> lab -> homework -> project (very hands off)
+	- This is to ease you into what it will be like in real life
+- Your community of students is best aspect of GA. They will help you with finding work and help you when you are stuck on a problem at work
