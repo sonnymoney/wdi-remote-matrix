@@ -190,7 +190,7 @@ firstname.toUpperCase();
 var lastname = "Atreides"
 
 lastname.toLowerCase();
-=> ATREIDES
+=> atreides
 ```
 <br>
 
