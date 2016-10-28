@@ -12,6 +12,7 @@ Read through the following.  Write down five things that you learned from readin
 	- Turn off your phone during class time and while doing homework
 - If you are late/absent, email all instructors
 	- A previous student got into a car accident, went to the hospital, checked herself out of the hospital, and was only late by 15mins
+	- Another previous student was riding her bike, had someone open a car door in front of her, flipped over her bike and the door, got up, and continued biking to class
 - Check your homework by figuring out ways to test your answers to see if they are correct.  Don't wait for feedback.
 	- You should be able to answer the question "did I do it right?" on your own.
 	- In the real world, you'll need to figure out how to test your code to see if it works.  You won't have someone to read your code and tell you if you did it right.
