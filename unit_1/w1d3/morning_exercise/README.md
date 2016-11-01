@@ -31,7 +31,7 @@ Prerequisites: None<br>
 - You will find yourself having to re-run applications when testing your app or you will find yourself needing to retype certain lines over and over again. Be lazy! It will give you more energy for the important stuff.
 - Open your terminal and let's try out a few of these.
     <details><summary>Command Line Shortcuts</summary>
-    ![CLI Shortcuts](http://imgur.com/a/lTkBo)
+    ![Command Line Shortcuts](http://i.imgur.com/Omz33nF.png)
     </details>
 - Are you running the same command over and over again? Use the **up arrow** to show your previous commands. Hit **enter** to run them.
 
