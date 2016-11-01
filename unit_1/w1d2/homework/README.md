@@ -23,7 +23,7 @@ Prerequisites: Github, HTML, CSS
 <details><summary>Answer the following questions</summary>
 
 1. What command do you use to setup a git repository inside of your folder?<br>
-1. What command do you use to ask git to start tacking a file?<br>
+1. What command do you use to ask git to start tracking a file?<br>
 1. What command do you use to ask git to move your file from the staging area to the repository?<br>
 <hr>
 &#x1F534; **Commit your work.** <br>
