@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-PANTHALASSA
+# WDI-MATRIX
 
 ---
 Title: Github Practice & Resume Page<br>
