@@ -151,7 +151,7 @@ The commit message should read: <br>
 ## When You're Done
 
 <details><summary>Submission</summary>
- - Inside this folder (w01d02/homework), you should now have a file called `github_answers.md` and a folder called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
+ - Inside this folder (w01d02/homework), you should now have a file called `answers.md` and a folder called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
  - You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is commited. If it's not, please commit. 
  - Follow the instructions for submitting homework, found in [the wiki](https://github.com/ga-students/wdi-remote-matrix/wiki/Homework-Submission)
 </details>
