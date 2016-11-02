@@ -10,13 +10,13 @@ Creator:WDI-Archer<br>
     Modified by: Kristyn Bryan<br>
     Course: WDIR-Matrix<br>
 Competencies: Using classes and ids in HTML to add style in CSS  <br>
-Prerequisites: <br>
+Prerequisites: HTML and CSS <br>
 
 ---
 
 # Style Zoo
 
-In this homework we will be using basic html and css selectors to style a list of animals in our zoo.
+In this homework we will be using basic HTML and CSS selectors to style a list of animals in our zoo.
 
 ## Setup
 <details><summary>Set up your files</summary>
