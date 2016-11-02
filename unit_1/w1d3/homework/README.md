@@ -164,6 +164,21 @@ The commit message should read: <br>
 
 </details>
 
+## When You're Done
+
+<details><summary>Hungry for more?</summary>
+- Finish your lab from today!
+https://github.com/ga-students/wdi-remote-matrix/tree/master/unit_1/w1d3/student_labs
+</details>
+
+<details><summary>Submission</summary>
+ - Inside this folder (w01d03/homework), you should now have a file called `index.html` and a file called `style.css`.
+ - You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is commited. If it's not, please commit. 
+ - Push your work to your github repo `git push origin master`
+ - Follow the instructions for submitting homework, found in [the wiki](https://github.com/ga-students/wdi-remote-matrix/wiki/Homework-Submission)
+</details>
+
+
 ## If you haven't finished Fundamentals
 <details><summary>Fundamentals</summary>
  - Tonight is a light homework night.
