@@ -19,9 +19,7 @@ _After this lesson, students will be able to:_
 - Access and change array elements
 - Add and remove elements from an array
 - Use at least 6 array methods, and research more methods on their own
-- Include arrays inside other arrays (multi-dimensional arrays)
-- Access and change multi-dimensional array elements
-- Add and remove multi-dimensional array elements
+- Use expressions with the square brackets to access elements
 
 <hr>
 
