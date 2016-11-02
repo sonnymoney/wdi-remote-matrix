@@ -7,7 +7,7 @@ Title: Style Zoo <br>
 Type: Homework<br>
 Duration: "2:00"<br>
 Creator:WDI-Archer<br>
-    Modified by: Kristyn Bryan
+    Modified by: Kristyn Bryan<br>
     Course: WDIR-Matrix<br>
 Competencies: Using classes and ids in HTML to add style in CSS  <br>
 Prerequisites: <br>
