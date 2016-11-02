@@ -19,15 +19,17 @@ _After this lesson, students will be able to:_
 - Access and change array elements
 - Add and remove elements from an array
 - Use at least 6 array methods, and research more methods on their own
-- Include arrays inside other arrays (multi-dimensional arrays)
-- Access and change multi-dimensional array elements
-- Add and remove multi-dimensional array elements
+- Use expressions with the square brackets to access elements
 
 <hr>
 
-&#x1F535; **Setup (4 min)**
+&#x1F535; **Setup (5 min)**
 
-Inside the `student_examples` directory. Make the lesson files:
+Up until now we have just been writing into the Chrome console. Now, we will want to keep our code, so let's make some files.
+
+* Navigate to `unit_1/w1d4/student_examples`
+
+* Inside the `student_examples` directory. Make the lesson files:
 
 * `mkdir arrays`
 
@@ -35,11 +37,17 @@ Inside the `student_examples` directory. Make the lesson files:
 
 * `touch index.html app.js`
 
+* open the project in atom with `atom .` (atom space dot) in Terminal
+
 <br>
 
 &#x1F535; **Setup (5 min)**
 
-* Link the markup and the script together:
+* Inside `index.html`, type `html` then hit TAB to make the boiletplate code.
+
+* Link the markup and the script together. Between the `<head>` tags, type `script` then hit TAB.
+
+* Write the string "app.js" in the `src` attribute to link your js file to the html file.
 
 ```
 <html>
@@ -60,7 +68,7 @@ Inside the `student_examples` directory. Make the lesson files:
 &#x1F535; **Setup (3 min)**
 
 * `console.log();`
-	- Send messages to the console. Let's use it for debugging purposes. 
+	- Send messages to the console. Let's use it for debugging purposes. In app.js:
 
 ```
 console.log('app.js');
@@ -73,7 +81,7 @@ We can also use other console actions: `console.clear()`, `console.warn()`, `con
 <hr>
 <br>
 
-12:12
+12:20
 
 ## WHAT IS AN ARRAY? (5 mins)
 
@@ -96,7 +104,7 @@ var squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
 
 <br>
 
-12:17
+12:25
 
 &#x1F535; **Activity (5 min)**
 
@@ -107,7 +115,7 @@ var squares = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
 <br>
 <hr>
 
-12:22
+12:28
 
 ### ACCESSING ELEMENTS (6 mins)
 
@@ -145,7 +153,7 @@ console.log(items.length);
 
 <br>
 
-12:28
+12:34
 
 &#x1F535; **Ask (1 min)**
 
@@ -155,7 +163,8 @@ Length gives us the number 4, but is there an element in the `items` array with 
 
 &#x1F535; **Activity (5 mins)**
 
-* Work in your `arrays.js` file. See the output in Chrome Console.
+* Work in your js file. Remember to **save** the file after you have worked inside of it. 
+* See the output in Chrome Console by refreshing the page.
 * With the following array:
 
 ```
@@ -165,10 +174,21 @@ var ghostbusters1984 = ["Venkman", "Spengler", "Stantz",
 
 * Console.log the first element in the array
 * Console.log the third element in the array
+* Console.log the length of the array
 
 <br>
 
-12:33
+&#x1F535; **Activity (5 mins)**
+
+RESEARCH
+
+* Find an array method that will tell you `indexOf` the string "Melnitz"
+* Find an array method that will `reverse` the order of elements inside the array
+
+<br>
+<hr>
+
+12:40
 
 ### CHANGING ELEMENTS (5 mins)
 
@@ -202,11 +222,12 @@ var numbers = [21, 18, 5, 3, 2, 1, 1];
 
 * Change the third element of the array to `null`, and console.log the array to confirm. (The third element is the number 5)
 
-FIGURE IT OUT
 
 &#x1F535; **Activity (4 min)**
 
-* Change the first element of the array to equal **itself** times ten (you could use a compound operator `*=` ). Remember, the number could theoretically be anything, not just 21. 
+FIGURE IT OUT
+
+* Change the first element of the array to equal **itself** times ten using the compound operator `*=`. 
 
 * Why wouldn't `nums[0 * 10]` work for this purpose?
 
@@ -259,14 +280,14 @@ Beatles;
 
 &#x1F535; **Activity in pairs (10 mins)**
 
- - Make an array of two of favorite tv shows or movies
+ - Make an array that contains two of your favorite tv shows or movies
  - `.push()` another TV show or movie into the array
-  - research the javascript array method `.sort()`
+ - research the javascript array method `.sort()`
  - save a `.sort()`ed version of the array to another variable, and console.log the new array
  - `.push()` another TV show or movie into the sorted array
  - research the javascript array method `.reverse()`
  - save a `.reverse()`ed version of the array to another variable, and console log the reversed result 
- - research the array method `.pop()` and use it on your array
+ - research the array method `.pop()` and use it on your array. What does it do?
  - research the array methods `.shift()` and `.unshift()`. How do they differ from `.push()` and `.pop()`?
  - research the array methods `.slice()` and `.splice()`. What do they do? How do they differ?
 
@@ -344,7 +365,9 @@ FIGURE IT OUT
 <br>
 <hr>
 
-1:16
+End of lesson
+
+<hr>
 
 ### MULTI-DIMENSIONAL ARRAYS (5 mins)
 
