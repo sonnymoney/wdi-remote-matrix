@@ -55,6 +55,8 @@ Open Javascript console `option + command + J`
 # VARIABLES
 ### STRINGS AND NUMBERS
 
+To do anything, we need some basic data, or fundamental building blocks. Javascript has five _primitive datatypes_ including **strings** and **numbers**
+
 **Strings** are text. Surround them in quotes (single quotes are standard, but you can use double quotes). 
 
 * `'This is a string';`
@@ -62,6 +64,8 @@ Open Javascript console `option + command + J`
 **Numbers** are digits. There are no quotes around a number primitive. Numbers can be evaluated in arithmetic expressions.
 
 * `2 + 2`;
+
+What can we do with our data? We can store them to memory so we can work with them.
 
 **Variables (5 mins):** We can assign strings and numbers to variables. Using the assignment operator `=`, we can store data to memory:
 
@@ -305,8 +309,13 @@ Javascript is considered accurate up to about 15 digits
 Example
 
 ```
-5 + (2 + 5 * 3)
-=> 22
+5 + 5 * 3
+=> 20
+```
+
+```
+(5 + 5) * 3
+=> 30
 ```
 
 **modulus `%` (4 min)**
@@ -330,12 +339,11 @@ Checks for a remainder after division
 
 &#x1F535; **Activity (1 min)**
 
-* Perform some arithmetic in the console - just do some stuff off the top of your head
+* Perform some arithmetic in the console - just do some stuff off the top of your head. Try:
+	- 0 / 0
+	- Math.sqrt(-2)
 
-Also, try
-
-- 0 / 0
-- Math.sqrt(-2)
+* Using modulus, check if the number 1001 is even or odd
 
 <br>
 
