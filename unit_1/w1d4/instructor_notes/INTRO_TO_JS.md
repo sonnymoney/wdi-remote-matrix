@@ -52,7 +52,10 @@ Open Javascript console `option + command + J`
 
 
 
-# PRIMITIVES - STRINGS AND NUMBERS
+# VARIABLES
+### STRINGS AND NUMBERS
+
+To do anything, we need some basic data, or fundamental building blocks. Javascript has five _primitive datatypes_ including **strings** and **numbers**
 
 **Strings** are text. Surround them in quotes (single quotes are standard, but you can use double quotes). 
 
@@ -62,6 +65,8 @@ Open Javascript console `option + command + J`
 
 * `2 + 2`;
 
+What can we do with our data? We can store them to memory so we can work with them.
+
 **Variables (5 mins):** We can assign strings and numbers to variables. Using the assignment operator `=`, we can store data to memory:
 
 ```
@@ -70,6 +75,9 @@ var item = 'chair';
 item 
 => "chair"
 ```
+
+![](https://i.imgur.com/kgJU34H.png)
+
 
 We can reassign the value of `item`:
 
@@ -93,16 +101,25 @@ num
 
 **Variable names**
 
-	- cannot begin with a number or include special character
-	- camelCase
-	- case sensitive
+- cannot begin with a number or include special character
+- camelCase
+- case sensitive
+
+```
+var mydata = 'this is a string';
+
+var myData = 100;
+
+myData
+=> 100;
+```
 
 **Semicolons**
 
-	- The interpreter needs the semicolons 
-	- Automatic Semicolon Insertion
-	- You won't get a job if you don't write your semicolons
-	- 'Minification' changes your code so you'd need 'em there
+- The interpreter needs the semicolons 
+- Automatic Semicolon Insertion
+- You won't get a job if you don't write your semicolons
+- 'Minification' changes your code so you'd need 'em there
 
 10:16
 
@@ -111,6 +128,14 @@ num
 &#x1F535; **Activity (2 min)**
 
 You can assign variables to other variables!
+
+```
+var variable1 = "schmutz";
+var variable2 = "crud";
+
+variable1 = variable2;
+=> "crud"
+```
 
 **Variable assignment**
 
@@ -129,6 +154,9 @@ c = a;
 Test out your answer by checking in the Chrome Console
 
 10:18
+
+<br>
+<hr>
 
 ## STRINGS
 
@@ -161,6 +189,36 @@ var adjective = 'crummy';
 
 <br>
 
+&#x1F535; **Activity (5 min)**
+
+* In Chrome console, set a variable `firstName` to a string (some name). 
+
+* Set another variable `lastName` to a string (some name).
+
+* Write an expression that sends a greeting with the `firstName` and `lastName` included. Use interpolation and concatenation to put the message together.
+
+The result should look something like this:
+
+```
+=> "Hello Baron Harkonnen!"
+```
+Remember to include spaces.
+
+<br>
+
+ANSWER:
+
+```
+var firstName = "Thom";
+var lastName = "Page";
+"Hello " + firstName + " " + lastName + "!";
+
+=> "Hello Thom Page!"
+```
+
+<br>
+<hr>
+
 **Escape characters (1 min)**
 
 ```
@@ -192,34 +250,22 @@ var lastname = "Atreides"
 lastname.toLowerCase();
 => atreides
 ```
-<br>
-
-&#x1F535; **Activity (5 min)**
-
-* In Chrome console, set a variable `firstName` to a string. Then set another variable `lastName` to a string.
-
-* Write an expression that sends a greeting with the `firstName` and `lastName` UPPERCASED. Use interpolation to put the message together. (eg: ``Hello there #{variable1.toUpperCase()} #{variable2.toUpperCase()}!`)
-
-```
-=> "Hello BARON HARKONNEN!"
-```
 
 <br>
 
+&#x1F535; **Activity (2 min)**
+
+* Return an uppercased version of the string "These pretzels are making me thirsty"
+
+
 &#x1F535; **Activity (5 min)**
 
-FIGURE IT OUT
+RESEARCH
 
-* You can assign variables to other variables. Eg. (`theSameItem = item`)
+* Use Google to find a method that will `replace` the words "pretzels" with the word "homeboys", and use that method in Chrome console
 
-* What happens if you set `var fullName = firstName + lastName`? Try it out.
+* Use Google to find a method that will `split` your string into an array, and use that method in Chrome console
 
-* Reassign `fullName` so that there is a space " " between `firstName` and `lastName`, using interpolation. Bonus: Make it uppercase.
-
-```
-fullName
-=> "BARON HARKONNEN"
-```
 <br>
 <hr>
 
@@ -263,8 +309,13 @@ Javascript is considered accurate up to about 15 digits
 Example
 
 ```
-5 + (2 + 5 * 3)
-=> 22
+5 + 5 * 3
+=> 20
+```
+
+```
+(5 + 5) * 3
+=> 30
 ```
 
 **modulus `%` (4 min)**
@@ -288,12 +339,11 @@ Checks for a remainder after division
 
 &#x1F535; **Activity (1 min)**
 
-* Perform some arithmetic in the console - just do some stuff off the top of your head
+* Perform some arithmetic in the console - just do some stuff off the top of your head. Try:
+	- 0 / 0
+	- Math.sqrt(-2)
 
-Also, try
-
-- 0 / 0
-- Math.sqrt(-2)
+* Using modulus, check if the number 1001 is even or odd
 
 <br>
 
@@ -522,7 +572,16 @@ typeof 1000;
 
 11:45
 
-Coercion exercise
+&#x1F535; **Activity (3 mins)**
+
+PREDICT AND THEN TEST
+
+Will the result be a string or a number?
+
+* `'1' / 1`
+* `'gossipcop.com' + '.biz'`
+*  `7 + '2000'`
+*  `40000 * '9'`
 
 
 <br>

@@ -3,7 +3,7 @@
 # WDI-Matrix
 
 <hr>
-Title: Functions and Scope<br>
+Title: Functions<br>
 Type: Lesson<br>
 Duration: 1hr 45mins<br>
 Creator: Thom Page<br>
@@ -168,6 +168,15 @@ nameIt("Gubernatorial");
 
 Each time, the output of the function will change to reflect the argument.
 
+
+```
+var someFunc = function(PARAMETER) {
+	// some code
+}
+
+someFunc(ARGUMENT);
+```
+
 <br>
 
 &#x1F535; **Activity (5 min)**
@@ -311,6 +320,8 @@ PROBLEM SOLVING
 
 
 <br>
+<hr>
+End of lesson
 <hr>
 
 

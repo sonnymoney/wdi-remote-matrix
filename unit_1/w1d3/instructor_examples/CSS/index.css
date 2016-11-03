@@ -1,0 +1,40 @@
+body {
+    color: red;
+}
+
+#comments {
+    background: #14C6CC;
+    font-size: 36px;
+    font-family: Times sans-serif;
+    /*font-weight: bold;*/
+    text-align: center;
+}
+
+.comment {
+    border: 1px solid red;
+}
+
+.active {
+    font-weight: bold;
+    color:blue;
+}
+
+section, aside {
+    color:purple;
+}
+
+p.active {
+    text-transform: uppercase;
+}
+section.active {
+    text-align: center;
+}
+#comments.active {
+    background: black;
+}
+.comment.active {
+    background: white;
+}
+main p.main {
+    font-size: 48px;
+}

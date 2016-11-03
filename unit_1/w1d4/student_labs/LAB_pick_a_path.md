@@ -112,7 +112,7 @@ console.log('===========================');
 // get the user's name, a string, from a prompt
 var name = prompt('What is your name?');
 
-console.log(`Welcome ${name}!`);
+console.log("Welcome " + name + "!");
 
 ```
 
@@ -140,7 +140,7 @@ console.log('===========================');
 // get the name, a string, from a prompt
 var name = prompt('What is your name?');
 
-console.log(`Welcome ${name}!`);
+console.log("Welcome " + name + "!");
 
 // declare hitpoints: a random integer between 2 and 12
 var hitpoints = Math.floor(Math.random() * 11) + 2;
@@ -148,9 +148,9 @@ var hitpoints = Math.floor(Math.random() * 11) + 2;
 // declare damage, a float taken from another value (hitpoints)
 var damage = hitpoints / 3;
 
-console.log(`You have ${hitpoints} hitpoints!`);
+console.log("You have " + hitpoints + " hitpoints!");
 
-console.log(`You can do: ${damage} damage!`);
+console.log("You can do: " + damage + "damage!");
 ```
 <br>
 <hr>
