@@ -24,7 +24,7 @@ _After this lesson, students will be able to:_
 
 ### SETUP (9 mins)
 
-* In the `student_labs` folder for today: `unit_1/w1d5/student_labs`, make a file called `loops.js`
+* In the `student_examples` folder for today: `unit_1/w1d5/student_examples`, make a file called `loops.js`
 * Open `loops.js` in Atom and write a console.log to test that the file runs
 * Run the file in your Terminal with `node loops.js`. You should see the output of the console.log in your Terminal
 
