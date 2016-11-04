@@ -26,7 +26,7 @@ _After this lesson, students will be able to:_
 
 ## SETUP
 
-* In the `student_labs` directory for today, `unit_01/w01d05/student_labs`:
+* In the `student_examples` directory for today, `unit_1/w1d5/student_examples`:
 * Create a file `functions.js`
 * Write a console.log inside `functions.js` so we can test if the file runs
 * Run the file in Terminal with `node functions.js`
@@ -43,7 +43,7 @@ Functions are another form of control flow along with conditionals and loops.
 Conditionals _skip_ lines of code within a block `{ ... } ` if a condition is not true:
 
 ```
-if (expr) {
+if (BOOLEAN EXPRESSION) {
 	// code might get skipped
 }
 ```
@@ -144,7 +144,7 @@ EXPERIMENT
 
 We can write functions that take in a type of variable called a **parameter**. By giving our functions some kind of variable input, we make them much more flexible. In this example, the parameter is arbitrarily called `name` (we can call our parameters whatever we want - whatever makes semantic sense).
 
-&#x1F535; **Code-Along (4 min)**
+&#x1F535; **Watch (4 min)**
 
 ```
 var nameIt = function(name) {
@@ -324,30 +324,6 @@ PROBLEM SOLVING
 End of lesson
 <hr>
 
-
-## INVOKED VS REFERENCED FUNCTIONS (5 mins)
-
-If you try to run your function without a `()`, you will see the function itself appear. 
-
-![referenced](https://i.imgur.com/48sQMnG.png)
-
-Invoked function, runs immediately:
-
-```
-callFunc();
-```
-
-Referenced function, does not run (yet):
-
-```
-callFunc;
-```
-
-We will learn more about _referenced_ functions next week when we talk about **callbacks**. For now, invoke your functions to get them to work.
-
-<br>
-<hr>
-
 ## ARGUMENTS (5 mins)
 
 If we supply fewer arguments than the function expects, the function will still run, but will result in `undefined` or result in errors related to undefined values. 
@@ -377,6 +353,31 @@ There is a way to list all of the arguments passed to a function. It is called `
 
 <br>
 <hr>
+
+
+## INVOKED VS REFERENCED FUNCTIONS (5 mins)
+
+If you try to run your function without a `()`, you will see the function itself appear. 
+
+![referenced](https://i.imgur.com/48sQMnG.png)
+
+Invoked function, runs immediately:
+
+```
+callFunc();
+```
+
+Referenced function, does not run (yet):
+
+```
+callFunc;
+```
+
+We will learn more about _referenced_ functions next week when we talk about **callbacks**. For now, invoke your functions to get them to work.
+
+<br>
+<hr>
+
 
 
 
