@@ -24,7 +24,7 @@ _After this lesson, students will be able to:_
 
 ### SETUP (9 mins)
 
-* In the `student_labs` folder for today: `unit_01/w01d05/student_labs`, make a file called `loops.js`
+* In the `student_labs` folder for today: `unit_1/w1d5/student_labs`, make a file called `loops.js`
 * Open `loops.js` in Atom and write a console.log to test that the file runs
 * Run the file in your Terminal with `node loops.js`. You should see the output of the console.log in your Terminal
 
@@ -72,7 +72,7 @@ Remember with conditionals, the code in front of us is not the same as the proce
 Conditional pseudo code:
 
 ```
-if (expr) {
+if (BOOLEAN EXPRESSION) {
 	// run this code
 } else {
 	// run this code instead
@@ -86,7 +86,7 @@ With loops, we tell the program to _repeat_ a block.
 While loop pseudo code:
 
 ```
-while (expr) {
+while (BOOLEAN EXPRESSION) {
 	// repeat this code
 };
 ```
@@ -98,7 +98,7 @@ while (expr) {
 
 ## _WHILE_ LOOP
 
-&#x1F535; **Code Along (5 min)**
+&#x1F535; **Demo (5 min)**
 
 A while loop that runs only while `runProgram` is true.
 
@@ -160,13 +160,14 @@ An infinite loop often causes a 'stack overflow'.
 Pseudo code:
 
 ```
-var some number equals a number <--- declare the number where the loop will begin
+var someNumber equals a number <--- declare the number where the loop will begin
 
-while (some number is less than some other number) {
+while (someNumber is less than some other number) {
 	console.log the current number in the loop
 	increase the number
 }
 ```
+
 12:19
 
 &#x1F535; **Activity (5 min)**
@@ -211,6 +212,8 @@ for (var i=0; i <= 1000; i++) {
 12:41
 
 **DISCUSS (5 mins)**
+
+![](https://i.imgur.com/IKI9pN2.png)
 
 there are three parts to the 'control panel' of the loop.
 
