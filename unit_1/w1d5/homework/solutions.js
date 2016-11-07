@@ -76,3 +76,19 @@ console.log("Thom's swag is on 10 when he wears his " + thomsCloset[0][0] + " an
 
 thomsCloset[1][2] = 'Footie Pajamas';
 console.log(thomsCloset);
+
+// "4th commit - finished looking through Thom's closet array"
+
+var i = 0;
+
+while(i < 10) {
+console.log("Feed me, I'm hungry!");
+i++;
+}
+
+for(i = 0; i < 10;) {
+	console.log("printout number " + (i + 1) + " of 10");
+	i++;
+}
+
+// "5th commit - finished with the easy loop questions"
