@@ -67,3 +67,12 @@ kristynsCloset[5] = 'stained knit hat';
 console.log(kristynsCloset);
 
 // 3rd commit "3rd commit - finished looking through Kristyn's closet array"
+
+thomsCloset[0][0];
+thomsCloset[1][1];
+thomsCloset[2][2];
+
+console.log("Thom's swag is on 10 when he wears his " + thomsCloset[0][0] + " and " + thomsCloset[1][1] + " with the classic " + thomsCloset[2][2]) + "!";
+
+thomsCloset[1][2] = 'Footie Pajamas';
+console.log(thomsCloset);
