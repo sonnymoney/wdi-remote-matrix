@@ -92,3 +92,9 @@ for(i = 0; i < 10;) {
 }
 
 // "5th commit - finished with the easy loop questions"
+
+console.log(grabBag[1]);
+
+for(i = 0;i < 4;) {
+  console.log(grabBag);
+}
